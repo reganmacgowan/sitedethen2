@@ -1,0 +1,8 @@
+
+@font-face {
+    font-family: 'Muara';
+    src: url('Muara.woff2') format('woff2'),
+        url('Muara.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

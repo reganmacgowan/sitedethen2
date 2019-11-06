@@ -1,0 +1,338 @@
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "muara";
+    src: url("fonts/muara.woff");
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1.3em;
+    color: #5d2313;
+    font-family: "muara", serif;
+}
+
+h2 {
+    font-size: 40px;
+    color: #5d2313;
+    font-family: "muara", serif;
+}
+
+h3 {
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #2A2A2A;
+}
+
+h4 {
+    font-size: 40px;
+    line-height: 1.5em;
+    color: #5d2313;
+    font-family: "muara", serif;
+}
+
+p, a, h3, form, blockquote {
+    font-family: 'Raleway', 'arial', sans-serif;
+}
+
+
+blockquote {
+
+    line-height: 30px;
+}
+
+
+blockquote i {
+    font-style: italic;
+}
+
+
+header {
+    text-align: center;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    width: 100%;
+    z-index: 4;
+    box-shadow: 0px 1px 4px black;
+    top: 0;
+
+}
+
+
+
+nav {
+    text-transform: uppercase;
+    line-height: 26px;
+    padding: 10px 0;
+
+}
+
+
+nav li {
+    display: inline;
+    padding: 0 20px;
+    color: black;
+}
+
+nav li:hover {
+    color: #808080;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#texte-haut-bandeau {
+    background-color: #fee1e1;
+    padding: 16px 0;
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    width: 100%;
+    box-shadow: 0px 1px 4px black;
+    margin-top: 172px;
+    text-align: center;
+    z-index: 3;
+
+}
+
+#bandeau {
+    margin-bottom: -12px;
+    text-align: center;
+    /* The image used */
+    background-image: url("images/fond-tea-shop.jpg");
+
+    /* Set a specific height */
+    height: 90vh;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 3;
+}
+
+
+#award {
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 440px;
+    width: 6%
+}
+
+#bandeau-fond {
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    width: 100%;
+    z-index: 1;
+    padding-top: 280px;
+}
+
+
+#bandeau-text {
+    width: 980px;
+    margin: 0 auto;
+    color: #5d2313;
+    text-transform: uppercase;
+    margin-top: 10px
+}
+
+#blends {
+    float: left
+}
+
+#blends:after {
+    display: block;
+    height: 80px;
+    background-color: #5d2313;
+    width: 1px;
+    content: " ";
+    margin-left: 140px;
+    margin-top: 5px;
+}
+
+#pure {
+    float: right
+}
+
+#pure:after {
+    display: block;
+    height: 80px;
+    background-color: #5d2313;
+    width: 1px;
+    content: " ";
+    margin-right: 140px;
+    margin-top: 5px;
+}
+
+
+.btn {
+    margin-top: 20px;
+    border: solid #5d2313 1px;
+    color: #5d2313;
+    padding: 15px 32px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #5d2313;
+    color: white;
+}
+
+
+body p {
+    color: #5d2313
+}
+
+#main-background {
+    background-color: beige;
+    top
+}
+
+#test {
+    height: 210px;
+
+    margin-top: -222px;
+    
+}
+
+main {
+    position: relative;
+    z-index: 2;
+    width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 280px;
+}
+
+main h2 {
+    padding: 40px;
+}
+
+.indulge {
+    padding-bottom: 40px;
+    line-height: 26px
+}
+
+#photos-thes {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(211, 211, 211, 0.23);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+
+}
+
+#photos-thes img {
+    height: 210px;
+    width: 210px;
+    margin: 10px 10px 5px 10px;
+    border-radius: 0px;
+    -webkit-transition: border-radius 1s;
+}
+
+#photos-thes img:hover {
+    border-radius: 100px;
+    -webkit-transition: border-radius 1s;
+}
+
+#photos-thes p {
+    text-align: center;
+    color: black;
+    padding-top: 5px
+}
+
+.prix:before {
+    display: block;
+    height: 1px;
+    background-color: black;
+    width: 20px;
+    content: " ";
+    margin: 10px auto;
+
+}
+
+
+#slider-w3c {
+    width: 980px;
+    height: 468px;
+}
+
+.w3-display-middle {
+    top: 45%;
+}
+
+#instagram img {
+    height: 296px;
+    width: 296px;
+}
+
+#instagram {
+    padding-bottom: 40px;
+}
+
+footer {
+    font-size: 15px;
+    line-height: 1.7em;
+    background-color: #af7878;
+    position: fixed;
+    bottom: 0;
+    z-index: -1;
+    width: 100%
+}
+
+
+
+footer h3 {
+    color: white;
+    font-weight: bold;
+    border-bottom: 1px white solid;
+    width: 260px;
+    margin: 15px 0;
+    padding: 15px 0;
+}
+
+footer p {
+    color: white;
+}
+
+#all-text {
+    margin: 0 auto;
+    width: 980px;
+    display: flex;
+    justify-content: space-between
+}
+
+
+.formulaire {
+    text-align: center;
+    padding-top: 40px;
+}
+
+#email {
+    width: 860px;
+    height: 39px
+}
+
+
+#envoi {
+    background-color: #fee1e1;
+    color: #5d2313;
+    border: 1px solid #5d2313;
+    font-size: 80%;
+    padding: 6px 20px;
+
+}
+
+#copyright {
+    padding: 20px 0 10px 0;
+}
